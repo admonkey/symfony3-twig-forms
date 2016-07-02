@@ -1,0 +1,13 @@
+{% set form_view %}
+  {{ form_start(form) }}
+      {{ form_widget(form) }}
+
+      <input type="submit" />
+  {{ form_end(form) }}
+{% endset %}
+
+{# then call #}
+    {{ form_view }}
+{# many times #}
+
+
